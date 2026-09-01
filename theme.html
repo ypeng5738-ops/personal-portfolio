@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>生活主题 · 肖裕鹏</title>
+    <meta name="description" content="生活主题详情页" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Outfit:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="theme-page">
+    <div class="atmosphere" aria-hidden="true"></div>
+
+    <header class="theme-header">
+      <a class="theme-back" id="theme-back" href="index.html">
+        <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+          <path
+            d="M15 6l-6 6 6 6"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <span data-i18n="backHome">返回首页</span>
+      </a>
+      <button
+        type="button"
+        class="lang-toggle"
+        id="lang-toggle"
+        aria-label="Switch to English"
+      >
+        EN
+      </button>
+    </header>
+
+    <main class="theme-main" id="theme-main">
+      <div class="theme-hero">
+        <img class="theme-cover" id="theme-cover" src="" alt="" />
+      </div>
+      <div class="theme-content section-inner">
+        <p class="section-eyebrow" id="theme-eyebrow">Life</p>
+        <h1 class="theme-title" id="theme-title"></h1>
+        <p class="theme-subtitle" id="theme-subtitle"></p>
+        <div class="theme-copy" id="theme-copy"></div>
+        <h2 class="theme-gallery-title" data-i18n="themeGallery">更多照片</h2>
+        <div class="theme-gallery" id="theme-gallery"></div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <p id="footer-copy">© 2026 肖裕鹏</p>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="theme.js"></script>
+  </body>
+</html>

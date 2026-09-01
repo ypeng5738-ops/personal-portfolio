@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>肖裕鹏 · Yupeng Xiao — 个人作品集</title>
+    <meta
+      name="description"
+      content="肖裕鹏的个人作品集 — 国际商务实习，聚焦客户运营、跨境协作与 AI 数字化工作流。"
+    />
+    <meta property="og:title" content="肖裕鹏 · Yupeng Xiao — 个人作品集" />
+    <meta
+      property="og:description"
+      content="国际商务、客户运营与数字 / AI — 单页个人作品集。"
+    />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Outfit:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true"></div>
+
+    <header class="site-header" id="site-header">
+      <nav class="nav-bar" aria-label="主导航">
+        <a class="nav-brand" href="#top">Nice to meet you!</a>
+
+        <div class="nav-actions">
+          <button
+            type="button"
+            class="lang-toggle"
+            id="lang-toggle"
+            aria-label="Switch to English"
+          >
+            EN
+          </button>
+
+          <button
+            type="button"
+            class="nav-toggle"
+            id="nav-toggle"
+            aria-expanded="false"
+            aria-controls="nav-panel"
+            aria-label="打开菜单"
+          >
+            <span class="nav-toggle-bar" aria-hidden="true"></span>
+            <span class="nav-toggle-bar" aria-hidden="true"></span>
+            <span class="nav-toggle-bar" aria-hidden="true"></span>
+          </button>
+        </div>
+
+        <div class="nav-panel" id="nav-panel">
+          <ul class="nav-links">
+            <li><a href="#about" data-i18n="navAbout">关于</a></li>
+            <li><a href="#experience" data-i18n="navExperience">经历</a></li>
+            <li><a href="#projects" data-i18n="navProjects">项目</a></li>
+            <li><a href="#skills" data-i18n="navSkills">技能</a></li>
+            <li><a href="#contact" data-i18n="navContact">联系</a></li>
+          </ul>
+          <a
+            class="resume-btn"
+            id="resume-btn"
+            href="./肖裕鹏27届华南农业大学2.8_副本.pdf"
+            download="肖裕鹏27届华南农业大学2.8_副本.pdf"
+          >
+            <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+              <path
+                d="M12 3v12m0 0l-4-4m4 4l4-4M5 19h14"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span data-i18n="resume">下载简历</span>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero page" id="hero" aria-label="个人介绍">
+        <div class="portrait-stage">
+          <div class="photo-parade" id="photo-parade"></div>
+          <figure class="portrait">
+            <img id="hero-avatar" src="assets/avatar.jpg" alt="肖裕鹏的正式头像" />
+          </figure>
+        </div>
+
+        <div class="identity">
+          <h1 class="name" id="hero-name">肖裕鹏</h1>
+          <p class="tagline" id="hero-tagline">国际商务 · 客户运营 · 数字与 AI</p>
+          <p class="intro" id="hero-intro">
+            我在国际商务、客户沟通与数字工具的交叉领域成长，希望把复杂的跨境流程做成清晰、可靠的协作。
+          </p>
+        </div>
+      </section>
+
+      <section class="section reveal" id="about">
+        <div class="section-inner">
+          <p class="section-eyebrow" data-i18n="aboutEyebrow">关于</p>
+          <h2 class="section-title" data-i18n="aboutTitle">简要介绍</h2>
+          <div class="about-copy" id="about-copy"></div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="experience">
+        <div class="section-inner">
+          <p class="section-eyebrow" data-i18n="experienceEyebrow">经历</p>
+          <h2 class="section-title" data-i18n="experienceTitle">相关工作</h2>
+          <ol class="timeline" id="experience-list"></ol>
+        </div>
+      </section>
+
+      <section class="section section--stats reveal" id="stats" aria-label="关键亮点">
+        <div class="section-inner">
+          <ul class="stats-grid" id="stats-grid"></ul>
+        </div>
+      </section>
+
+      <section class="section reveal" id="projects">
+        <div class="section-inner">
+          <p class="section-eyebrow" data-i18n="projectsEyebrow">项目</p>
+          <h2 class="section-title" data-i18n="projectsTitle">产品与 AI 相关实践</h2>
+          <div class="projects-grid" id="projects-grid"></div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="skills">
+        <div class="section-inner">
+          <p class="section-eyebrow" data-i18n="skillsEyebrow">技能</p>
+          <h2 class="section-title" data-i18n="skillsTitle">能力标签</h2>
+          <div class="skills-grid" id="skills-grid"></div>
+        </div>
+      </section>
+
+      <section class="section section--contact reveal" id="contact">
+        <div class="section-inner contact-panel">
+          <p class="section-eyebrow" data-i18n="contactEyebrow">联系</p>
+          <h2 class="section-title" id="contact-heading">保持联系</h2>
+          <p class="contact-blurb" id="contact-blurb"></p>
+          <ul class="contact contact--footer" id="contact-links"></ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p id="footer-copy">© 2026 肖裕鹏</p>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
