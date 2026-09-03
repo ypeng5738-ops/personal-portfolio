@@ -22,6 +22,7 @@ window.siteData = {
       cover: "assets/photos/篮球/IMG_20250628_182722.jpg",
       coverPosition: "center 80%",
       gallery: [
+        { src: "assets/photos/篮球/mmexport1765712655996.jpg", position: "center center" },
         { src: "assets/photos/篮球/DSC06219.JPG", position: "center center" },
         { src: "assets/photos/篮球/mmexport1782351088795.jpg", position: "center center" },
         { src: "assets/photos/篮球/mmexport1774517868900.jpg", position: "center 30%" },
