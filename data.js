@@ -10,8 +10,8 @@ window.siteData = {
     email: "3060308626@qq.com",
     linkedin: "https://www.linkedin.com/in/%E8%A3%95%E9%B9%8F-%E8%82%96-348257429/",
     github: "https://github.com/ypeng5738-ops",
-    resumeFile: "./肖裕鹏27届华南农业大学2.8_副本.pdf",
-    resumeDownloadName: "肖裕鹏27届华南农业大学2.8_副本.pdf",
+    resumeFile: "assets/肖裕鹏27届华南农业大学3.0_副本.pdf",
+    resumeDownloadName: "肖裕鹏27届华南农业大学3.0_副本.pdf",
     avatar: "assets/avatar.jpg",
   },
 
